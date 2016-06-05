@@ -25,318 +25,14 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8fdd588-34be-4252-9860-4c7a227061d8" name="Default" comment="Changes in admin console, capability to add problems and their solutions, improved navigation.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/local_db.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/api/UserValidation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/appengine/DatastoreAdmin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/appengine/ExistingDecodersResourceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/challengeloaders/MonthlyChallengeLoaderServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/AnnouncementModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/AnnouncementModelSorter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/Member.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/Question.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/Score.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/models/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/utils/CookieMaster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/utils/PasswordUtility.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/utils/ProblemSolutionMatcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/AdminLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/AnnouncementHandlerServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/CookieHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/MemberLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/MemberRegistrationHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/ProblemSubmissionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/ProjectDecodersServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/RegistrationHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/club/decoders/web/UserLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-api-1.0-sdk-1.9.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-api-labs-1.9.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-api-labs.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-endpoints-deps.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-endpoints.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/appengine-jsr107cache-1.9.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/asm-4.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/datanucleus-api-jdo-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/datanucleus-api-jpa-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/datanucleus-appengine-2.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/datanucleus-core-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/geronimo-jpa_2.0_spec-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/jdo-api-3.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/jsr107cache-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/jta-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/lib/libservice.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/Material-Design-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/Material-Design-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/Material-Design-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/Material-Design-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/roboto/Roboto-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/algorithm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/codebezos.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/coding.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/codinged.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoders10071.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoders200141.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoders2016.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoders2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoders3021.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decodersLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/decoderslogo2020.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/ds_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/ds_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/images.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/images/reverse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/api/UserValidation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/appengine/DatastoreAdmin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/appengine/ExistingDecodersResourceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/challengeloaders/MonthlyChallengeLoaderServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/AnnouncementModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/AnnouncementModelSorter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/Member.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/Question.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/Score.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/models/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/utils/CookieMaster.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/utils/PasswordUtility.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/utils/ProblemSolutionMatcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/AdminLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/AnnouncementHandlerServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/CookieHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/MemberLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/MemberRegistrationHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/ProblemSubmissionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/ProjectDecodersServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/RegistrationHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/club/decoders/web/UserLoginHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-api-1.0-sdk-1.9.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-api-labs.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-endpoints-deps.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-endpoints.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-jsr107cache-1.9.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-4.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/datanucleus-api-jdo-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/datanucleus-api-jpa-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/datanucleus-appengine-2.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/datanucleus-core-3.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/geronimo-jpa_2.0_spec-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jdo-api-3.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsr107cache-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jta-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/roboto/Roboto-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/algorithm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/codebezos.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/coding.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/codinged.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoders10071.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoders200141.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoders2016.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoders2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoders3021.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decodersLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/decoderslogo2020.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/ds_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/ds_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/images.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/reverse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/DecodersWeb_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/anurag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AppEngine_API.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DecodersWeb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/META-INF/jdoconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/NewFile.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/adminlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/announcement_maker.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/memberreg.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/problemForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/allmembers.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/bulletin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/css/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/simple-sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/js/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/monthlychallenge.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/errors/error404.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/errors/error500.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/event_fun.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/event_hack.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/event_projects.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/event_reverse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/font/material-design-icons/Material-Design-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/js/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/js/materialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/js/materialize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/memb_login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/memberdash.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/registration.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/sessionitems/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/status.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/tutorial_ds.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/tutorial_even.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/tutorial_java.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/tutorial_saturday.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/user_login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/userdash.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/META-INF/jdoconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DecodersWeb/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/jdoconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/api/UserValidation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/appengine/DatastoreAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/appengine/ExistingDecodersResourceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/challengeloaders/MonthlyChallengeLoaderServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/AnnouncementModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/AnnouncementModelSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/Member.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/Score.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/utils/CookieMaster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/utils/PasswordUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/utils/ProblemSolutionMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/AnnouncementHandlerServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/CookieHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/MemberLoginHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/MemberRegistrationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/ProblemSubmissionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/ProjectDecodersServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/RegistrationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/club/decoders/web/UserLoginHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/NewFile.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/allmembers.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bulletin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/simple-sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/materialize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/js/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/dashitems/monthlychallenge.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/errors/error404.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/errors/error500.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/event_fun.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/event_hack.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/event_projects.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/event_reverse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/font/material-design-icons/Material-Design-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/materialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/materialize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/memb_login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/memberdash.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/registration.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sessionitems/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/status.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tutorial_ds.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tutorial_even.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tutorial_java.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/tutorial_saturday.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/user_login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/userdash.jsp" />
+    <list default="true" id="b8fdd588-34be-4252-9860-4c7a227061d8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/index.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" />
     </list>
     <ignored path="DecodersWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -363,17 +59,67 @@
         <entry file="file://$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problemForm.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/_dcdrad_/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+            <state relative-caret-position="1496">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewFile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/_dcdrad_/NewFile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminlogin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="announcement_maker.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appengine-web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -399,63 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberRegistrationHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/club/decoders/web/MemberRegistrationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminLoginHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/club/decoders/models/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonthlyChallengeLoaderServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/club/decoders/challengeloaders/MonthlyChallengeLoaderServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="monthlychallenge.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/dashitems/monthlychallenge.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_projects.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/event_projects.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1685">
-              <caret line="68" column="94" selection-start-line="68" selection-start-column="94" selection-end-line="68" selection-end-column="94" />
+            <state relative-caret-position="428">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -492,10 +186,16 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/club/decoders/challengeloaders/MonthlyChallengeLoaderServlet.java" />
         <option value="$PROJECT_DIR$/web/_dcdrad_/setadmin.jsp" />
-        <option value="$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java" />
         <option value="$PROJECT_DIR$/web/dashitems/monthlychallenge.jsp" />
         <option value="$PROJECT_DIR$/web/event_projects.jsp" />
+        <option value="$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java" />
+        <option value="$PROJECT_DIR$/web/_dcdrad_/NewFile.jsp" />
+        <option value="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" />
         <option value="$PROJECT_DIR$/web/_dcdrad_/index.jsp" />
+        <option value="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" />
+        <option value="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" />
+        <option value="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
       </list>
     </option>
   </component>
@@ -592,6 +292,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DecodersWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DecodersWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1494,12 +1212,20 @@
       <workItem from="1464672145333" duration="888000" />
       <workItem from="1465055316314" duration="595000" />
       <workItem from="1465110239964" duration="542000" />
-      <workItem from="1465136045529" duration="3012000" />
+      <workItem from="1465136045529" duration="7241000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes in admin console, capability to add problems and their solutions, improved navigation.">
+      <created>1465139087591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465139087591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17405000" />
+    <option name="totallyTimeSpent" value="21634000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1512,7 +1238,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1526,13 +1252,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23520249" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23364486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21623673" sideWeight="0.6962617" order="0" side_tool="false" content_ui="combo" />
@@ -1571,38 +1297,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/memberdash.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/userdash.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/decoders/api/UserValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/dashitems/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4136">
-          <caret line="188" column="35" selection-start-line="188" selection-start-column="35" selection-end-line="188" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
@@ -1858,14 +1552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/club/decoders/web/MemberRegistrationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1877,22 +1563,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/_dcdrad_/setadmin.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/NewFile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/club/decoders/models/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
@@ -1933,6 +1603,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/club/decoders/web/AdminLoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1941,10 +1619,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/NewFile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/_dcdrad_/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state relative-caret-position="1496">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
         </state>
       </provider>

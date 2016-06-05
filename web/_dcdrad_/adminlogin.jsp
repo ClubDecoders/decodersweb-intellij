@@ -25,7 +25,7 @@
 		<form method="post" action="/alserv">
 			<table>
 				<tr>
-					<td>Enter USN?"</td>
+					<td>Enter USN?</td>
 					<td><input type="text" maxlength="10" name ="usn" placeholder="USN?"></td>
 					
 				</tr>

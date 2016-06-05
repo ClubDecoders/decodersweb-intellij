@@ -14,7 +14,25 @@
 		<div class="nav-wrapper container">
 			<a id="logo-container" href="index.html" class="brand-logo">Decoders
 				Admin Console: Problem and Solution Insertion</a>
+			<ul class="right hide-on-med-and-down">
+			<li><%
+				boolean flag=false;
+				for(Cookie c:request.getCookies())
+				{
+					if(c.getName().equals("flycookie")){
+						out.println(c.getValue());
+						flag = true;
+						break;
+					}
+				}
+				if(flag==false)
+					response.sendError(404);
+			%></li>
+			</ul>
 		</div>
+
+
+
 	</nav>
 	<div class="container">
 		<%

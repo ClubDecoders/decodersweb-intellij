@@ -1,5 +1,6 @@
+<%@ page import="club.decoders.web.CookieHandler" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+		 pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,10 +21,23 @@
 				Admin Console: Announcer</a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="regiscan.jsp">Show Registrations</a></li>
+				<li><%
+                    boolean flag=false;
+					for(Cookie c:request.getCookies())
+					{
+						if(c.getName().equals("flycookie")){
+							out.println(c.getValue());
+                            flag = true;
+                            break;
+						}
+					}
+                    if(flag==false)
+                        response.sendError(404);
+				%></li>
 			</ul>
 		</div>
 	</nav>
-	
+
 	<!-- Body Below -->
 	<div align="center" class="container">
 		<form action="/bulletinserv" method="post">

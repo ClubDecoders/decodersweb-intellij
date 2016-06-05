@@ -22,6 +22,19 @@
 				<li><a href="user_login.jsp">User Login</a></li>
 				<li><a href="memb_login.jsp">Members Login</a></li>
 				<li><a href="bulletin.jsp">Bulletin</a></li>
+				<li><%
+					boolean flag=false;
+					for(Cookie c:request.getCookies())
+					{
+						if(c.getName().equals("flycookie")){
+							out.println(c.getValue());
+							flag = true;
+							break;
+						}
+					}
+					if(flag==false)
+						response.sendError(404);
+				%></li>
 			</ul>
 
 			<ul id="nav-mobile" class="side-nav">
