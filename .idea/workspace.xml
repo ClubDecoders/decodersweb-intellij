@@ -27,12 +27,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fdd588-34be-4252-9860-4c7a227061d8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/adminlogin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/announcement_maker.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/index.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/memberreg.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" afterPath="$PROJECT_DIR$/web/_dcdrad_/problemForm.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/adminlogin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/adminlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/announcement_maker.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/announcement_maker.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/memberreg.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/memberreg.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/problemForm.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/_dcdrad_/problemForm.jsp" />
     </list>
     <ignored path="DecodersWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +119,8 @@
       <file leaf-file-name="appengine-web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -510,7 +511,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Google AppEngine Dev Server.AppEngine Dev 1.9.30">
+  <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -995,6 +996,9 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="google-app-engine-deploy" factoryName="Google App Engine Deployment">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1182,8 +1186,17 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Google App Engine Deployment" type="google-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
+      <deployment type="artifact" name="DecodersWeb:war exploded" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DecodersWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Google AppEngine Dev Server.AppEngine Dev 1.9.30" />
+      <item index="1" class="java.lang.String" itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -1212,7 +1225,7 @@
       <workItem from="1464672145333" duration="888000" />
       <workItem from="1465055316314" duration="595000" />
       <workItem from="1465110239964" duration="542000" />
-      <workItem from="1465136045529" duration="7241000" />
+      <workItem from="1465136045529" duration="7412000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in admin console, capability to add problems and their solutions, improved navigation.">
       <created>1465139087591</created>
@@ -1221,11 +1234,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465139087591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Sessions in admin section using cookies">
+      <created>1465150254414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465150254414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21634000" />
+    <option name="totallyTimeSpent" value="21805000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1286,7 +1306,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Changes in admin console, capability to add problems and their solutions, improved navigation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in admin console, capability to add problems and their solutions, improved navigation." />
+    <MESSAGE value="Updated Sessions in admin section using cookies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Sessions in admin section using cookies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1669,8 +1690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
