@@ -38,9 +38,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/WEB-INF/appengine-web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DecodersWeb_war_exploded/dashitems/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/dashitems/index.jsp" afterPath="$PROJECT_DIR$/web/dashitems/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/errors/error500.jsp" afterPath="$PROJECT_DIR$/web/errors/error500.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/errors/error404.jsp" afterPath="$PROJECT_DIR$/web/errors/error404.jsp" />
     </list>
     <ignored path="DecodersWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,11 +131,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error500.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error500.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/errors/error500.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
               <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error404.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/errors/error404.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -186,6 +194,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/web/dashitems/index.jsp" />
         <option value="$PROJECT_DIR$/web/errors/error500.jsp" />
+        <option value="$PROJECT_DIR$/web/errors/error404.jsp" />
       </list>
     </option>
   </component>
@@ -1251,7 +1260,7 @@
       <workItem from="1465055316314" duration="595000" />
       <workItem from="1465110239964" duration="542000" />
       <workItem from="1465136045529" duration="10577000" />
-      <workItem from="1465193528068" duration="1284000" />
+      <workItem from="1465193528068" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in admin console, capability to add problems and their solutions, improved navigation.">
       <created>1465139087591</created>
@@ -1274,11 +1283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465150403477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated erroenous paths in error status pages">
+      <created>1465194850032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465194850032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26254000" />
+    <option name="totallyTimeSpent" value="26487000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1340,7 +1356,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Changes in admin console, capability to add problems and their solutions, improved navigation." />
     <MESSAGE value="Updated Sessions in admin section using cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Sessions in admin section using cookies" />
+    <MESSAGE value="Updated erroenous paths in error status pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated erroenous paths in error status pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1685,14 +1702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/errors/error404.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://MODULES/mdl-DecodersWeb">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1735,6 +1744,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/errors/error404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
           <folding />
         </state>
       </provider>
