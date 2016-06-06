@@ -14,18 +14,18 @@
 	<nav class="teal teal-text text-darken-4" role="navigation">
 		<div class="nav-wrapper container">
 			<a id="logo-container" href="index.html" class="brand-logo"><img
-				src="images/decoders10071.jpg" width="40" height="40"
+				src="../images/decoders10071.jpg" width="40" height="40"
 				style="border: thin; border-style: solid; border-radius: 2px;">&nbsp;Decoders</a>
 			<ul class="right hide-on-med-and-down">
-				<li><a href="user_login.jsp">User Login</a></li>
-				<li><a href="registration.jsp">User Sign-Up</a></li>
-				<li><a href="memb_login.jsp">Members Login</a></li>
-				<li><a href="bulletin.jsp">Bulletin</a></li>
+				<li><a href="../user_login.jsp">User Login</a></li>
+				<li><a href="../registration.jsp">User Sign-Up</a></li>
+				<li><a href="../memb_login.jsp">Members Login</a></li>
+				<li><a href="../bulletin.jsp">Bulletin</a></li>
 			</ul>
 
 			<ul id="nav-mobile" class="side-nav">
-				<li><a href="memb_login.jsp">Members Login</a></li>
-				<li><a href="bulletin.jsp">Bulletin</a></li>
+				<li><a href="../memb_login.jsp">Members Login</a></li>
+				<li><a href="../bulletin.jsp">Bulletin</a></li>
 			</ul>
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i
 				class="material-icons">menu</i></a>
@@ -54,22 +54,22 @@
 				<div class="col l3 s12">
 					<h5 class="white-text">Tutorials and Sessions</h5>
 					<ul>
-						<li><a class="white-text" href="tutorial_ds.jsp">Data Structures and
+						<li><a class="white-text" href="../tutorial_ds.jsp">Data Structures and
 								Algorithms</a></li>
-						<li><a class="white-text" href="tutorial_java.jsp">Core Java Programming</a></li>
-						<li><a class="white-text" href="tutorial_even.jsp">Evening Problem
+						<li><a class="white-text" href="../tutorial_java.jsp">Core Java Programming</a></li>
+						<li><a class="white-text" href="../tutorial_even.jsp">Evening Problem
 								Solving Sessions</a></li>
-						<li><a class="white-text" href="tutorial_saturday.jsp">Saturday Members'
+						<li><a class="white-text" href="../tutorial_saturday.jsp">Saturday Members'
 								Sessions</a></li>
 					</ul>
 				</div>
 				<div class="col l3 s12">
 					<h5 class="white-text">Internal Projects and Events</h5>
 					<ul>
-						<li><a class="white-text" href="event_reverse.jsp">Reverse Coding</a></li>
-						<li><a class="white-text" href="event_hack.jsp">CSI Hackathon</a></li>
-						<li><a class="white-text" href="event_fun.jsp">Fun Bytes</a></li>
-						<li><a class="white-text" href="event_projects.jsp">Projects</a></li>
+						<li><a class="white-text" href="../event_reverse.jsp">Reverse Coding</a></li>
+						<li><a class="white-text" href="../event_hack.jsp">CSI Hackathon</a></li>
+						<li><a class="white-text" href="../event_fun.jsp">Fun Bytes</a></li>
+						<li><a class="white-text" href="../event_projects.jsp">Projects</a></li>
 					</ul>
 				</div>
 			</div>
@@ -77,8 +77,8 @@
 		<div class="footer-copyright">
 			<div class="container">
 				Developed by: <a class="brown-text text-lighten-3" href="#">Decoders</a>
-				| Theme: Materialize | <a href="allmembers.jsp">All Members</a> | <a
-					href="_dcdrad_/adminlogin.jsp">Admin</a>
+				| Theme: Materialize | <a href="../allmembers.jsp">All Members</a> | <a
+					href="../_dcdrad_/adminlogin.jsp">Admin</a>
 			</div>
 		</div>
 	</footer>

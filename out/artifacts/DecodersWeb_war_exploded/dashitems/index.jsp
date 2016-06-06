@@ -1,5 +1,4 @@
 <%@page import="club.decoders.models.Member"%>
-<%@page import="com.sun.xml.internal.bind.v2.schemagen.xmlschema.Import"%>
 <%@page language="java" contentType="text/html; charset=ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
